@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nindiacahyaning.aplikasimonitoring.SignUpActivity"
+    android:background="@drawable/background_signup">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <EditText
+            android:id="@+id/nip_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="134dp"
+            android:hint="NIP"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#4F4F4F"
+            android:textColorHint="#4F4F4F" />
+
+        <EditText
+            android:id="@+id/email_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/nip_signup"
+            android:layout_marginTop="34dp"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="#4F4F4F"
+            android:textColorHint="#4F4F4F" />
+
+        <EditText
+            android:id="@+id/createpassword_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nip_signup"
+            android:layout_marginTop="21dp"
+            android:hint="Create Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#4F4F4F"
+            android:textColorHint="#4F4F4F" />
+
+        <EditText
+            android:id="@+id/reenterpassword_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:hint="Re-enter Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#4F4F4F"
+            android:textColorHint="#4F4F4F" />
+
+        <Button
+            android:id="@+id/tombol_signup"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/reenterpassword_signup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/rounded_button_login"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="#F2F2F2"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

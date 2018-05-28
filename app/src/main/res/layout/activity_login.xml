@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/background_login"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nindiacahyaning.aplikasimonitoring.LoginActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="134dp"
+            android:layout_marginStart="134dp"
+            android:layout_marginTop="221dp"
+            android:hint="NIP"
+            android:inputType="textPersonName"
+            android:textColor="#4F4F4F"
+            android:textColorHint="#4F4F4F" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
+            android:layout_alignTop="@+id/editText2"
+            android:layout_marginTop="34dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#4F4F4F"
+            android:textColorHint="#4F4F4F" />
+
+        <Button
+            android:id="@+id/tombol_login"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/rounded_button_login"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#F2F2F2"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText"
+            android:layout_below="@+id/tombol_login"
+            android:layout_marginTop="14dp"
+            android:text="Forgot Password? "
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:id="@+id/tombol_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/tombol_login"
+            android:layout_toRightOf="@+id/tombol_login"
+            android:text="SIGN UP"
+            android:textColor="#F2F2F2" />
+
+        <TextView
+            android:id="@+id/create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:text="Or create an account please"
+            android:textColor="#000000" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
